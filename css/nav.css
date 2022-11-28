@@ -37,7 +37,7 @@
 
 @media (max-width: 539px) {
     .nav__contrast {
-         justify-content: start; 
+        justify-content: start;
     }
 }
 
@@ -54,13 +54,12 @@
 @media (min-width: 540px) and (max-width: 767px) {
     .nav__font {
         grid-column-start: 2;
-        
     }
 }
 
 @media (max-width: 539px) {
     .nav__font {
-         justify-content: start; 
+        justify-content: start;
     }
 }
 

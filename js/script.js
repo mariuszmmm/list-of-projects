@@ -9,6 +9,14 @@
     const enFont = document.querySelector(".js-enFont");
     const plContent = document.querySelector(".js-plContent");
     const enContent = document.querySelector(".js-enContent");
+    const plLink1 = document.querySelector(".js-plLink1");
+    const enLink1 = document.querySelector(".js-enLink1");
+    const plLink2 = document.querySelector(".js-plLink2");
+    const enLink2 = document.querySelector(".js-enLink2");
+    const plLink3 = document.querySelector(".js-plLink3");
+    const enLink3 = document.querySelector(".js-enLink3");
+    const plLink4 = document.querySelector(".js-plLink4");
+    const enLink4 = document.querySelector(".js-enLink4");
 
     plElement.addEventListener("click", () => {
 
@@ -26,6 +34,18 @@
 
         enContent.classList.remove("spanLang--selected")
         plContent.classList.add("spanLang--selected")
+
+        enLink1.classList.remove("spanLang--selected")
+        plLink1.classList.add("spanLang--selected")
+
+        enLink2.classList.remove("spanLang--selected")
+        plLink2.classList.add("spanLang--selected")
+
+        enLink3.classList.remove("spanLang--selected")
+        plLink3.classList.add("spanLang--selected")
+
+        enLink4.classList.remove("spanLang--selected")
+        plLink4.classList.add("spanLang--selected")
     });
 
 
@@ -45,6 +65,18 @@
 
         plContent.classList.remove("spanLang--selected")
         enContent.classList.add("spanLang--selected")
+
+        plLink1.classList.remove("spanLang--selected")
+        enLink1.classList.add("spanLang--selected")
+
+        plLink2.classList.remove("spanLang--selected")
+        enLink2.classList.add("spanLang--selected")
+
+        plLink3.classList.remove("spanLang--selected")
+        enLink3.classList.add("spanLang--selected")
+
+        plLink4.classList.remove("spanLang--selected")
+        enLink4.classList.add("spanLang--selected")
     });
 
     const brightElement = document.querySelector(".js-bright");
@@ -100,6 +132,6 @@
         containerElement.classList.remove("container--fontSizeSmall")
         containerElement.classList.remove("container--fontSizeMedium")
         containerElement.classList.add("container--fontSizeBig")
-    });   
+    });
 }
 

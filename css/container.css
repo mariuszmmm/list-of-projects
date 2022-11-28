@@ -1,8 +1,5 @@
 .spanLang {
     display: none;
-    
-    text-shadow: 10px 10px 10px 10px rgb(207, 37, 37);
-    
 }
 
 .spanLang--selected {
@@ -13,7 +10,6 @@
     min-width: 290px;
     box-shadow: 5px 5px;
     text-shadow: 3px 3px 10px gray;
-    
 }
 
 .container--bright {
