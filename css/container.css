@@ -9,7 +9,7 @@
 .container {
     min-width: 290px;
     box-shadow: 5px 5px;
-    text-shadow: 3px 3px 10px gray;
+    text-shadow: 2px 2px 4px gray;
 }
 
 .container--bright {
@@ -20,6 +20,7 @@
 .container--dark {
     background-color: black;
     color: white;
+    text-shadow: none;
 }
 
 .container--fontSizeSmall {

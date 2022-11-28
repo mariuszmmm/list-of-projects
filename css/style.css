@@ -8,8 +8,8 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: grey;
-    padding: 20px 10px;
+    background-color: teal;
+    padding: 15px 15px;
     max-width: 1000px;
     margin: 0 auto;
 }
