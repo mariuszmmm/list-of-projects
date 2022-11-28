@@ -1,0 +1,20 @@
+.list__content {
+    line-height: 2;
+    list-style-position: inside;
+    padding: 0 60px 100px;
+    margin: 0;
+}
+
+.link__item {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link__item:hover {
+    text-decoration: underline;
+}
+
+.link__item:active {
+    font-weight: 700;
+    text-decoration: none;
+}

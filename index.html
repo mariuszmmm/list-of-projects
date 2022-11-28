@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>List of projects</title>
+</head>
+
+<body>
+    <div class="container container--bright container--fontSizeSmall js-container">
+        <nav class="nav">
+            <div class="nav__lang">
+                <span class="spanLang spanLang--selected js-plLang">Język:</span>
+                <span class="spanLang js-enLang">Lang:</span>
+                <button class="nav__lang--pl nav__lang--selected js-pl">PL</button>
+                <button class="nav__lang--en js-en">EN</button>
+            </div>
+            <div class="nav__contrast">
+                <span class="spanLang spanLang--selected js-plContrast">Kontrast:</span>
+                <span class="spanLang js-enContrast">Contrast:</span>
+                <button class="nav__contrast--bright js-bright">A</button>
+                <button class="nav__contrast--dark js-dark">A</button>
+            </div>
+            <div class="nav__font nav__font--container">
+                <span class="spanLang spanLang--selected js-plFont">Czcionka:</span>
+                <span class="spanLang js-enFont">Font:</span>
+                <button class="nav__fontSize nav__fontSize--small nav_fontSize--selected js-small">A</button>
+                <button class="nav__fontSize nav__fontSize--medium js-medium">A</button>
+                <button class="nav__fontSize nav__fontSize--big js-big">A</button>
+            </div>
+        </nav>
+        <h1 class="header">
+            <span class="spanLang spanLang--selected js-plContent">Projekty stworzone w podczas nauki programowania w kursie "YouCode" :</span>
+            <span class="spanLang js-enContent">Projects created while learning programming in the "YouCode" course :</span>
+        </h1>
+        <ul class="list__content">
+        <li>
+            <a class="link__item" href="https://mariuszmmm.github.io/homepage/">homepage</a>
+        </li>
+        <li>
+            <a class="link__item" href="https://mariuszmmm.github.io/bieszczady/">bieszczady</a>
+        </li>
+        <li>
+            <a class="link__item" href="https://mariuszmmm.github.io/currency-converter/">currency-converter</a>
+        </li>
+        <li>
+            <a class="link__item" href="https://mariuszmmm.github.io/to-do-list/">to-do-list</a>
+        </li>
+    </ul>
+    </div>
+</body>
+
+</html>
