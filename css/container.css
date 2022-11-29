@@ -10,6 +10,7 @@
     min-width: 290px;
     box-shadow: 5px 5px;
     text-shadow: 2px 2px 4px gray;
+    transition: 0.2s;
 }
 
 .container--bright {
@@ -24,13 +25,13 @@
 }
 
 .container--fontSizeSmall {
-    font-size: 14px;
-}
-
-.container--fontSizeMedium {
     font-size: 16px;
 }
 
+.container--fontSizeMedium {
+    font-size: 19px;
+}
+
 .container--fontSizeBig {
-    font-size: 18px;
+    font-size: 22px;
 }
