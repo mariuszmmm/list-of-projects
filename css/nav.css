@@ -8,7 +8,7 @@
     justify-items: start;
     align-content: center;
     min-height: 66px;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 @media (max-width: 539px) {
@@ -69,7 +69,7 @@
     border: none;
     background-color: transparent;
     color: inherit;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 .nav__lang--pl:hover {
@@ -83,7 +83,7 @@
     border: none;
     background-color: transparent;
     color: inherit;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 .nav__lang--en:hover {
@@ -102,7 +102,7 @@
     padding: 3px 3px 0 3px;
     border: 2px solid black;
     border-radius: 20%;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 .nav__contrast--bright:hover {
@@ -117,7 +117,7 @@
     padding: 3px 3px 0 3px;
     border: 2px solid white;
     border-radius: 20%;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 .nav__contrast--dark:hover {
@@ -137,35 +137,35 @@
 
 .nav__fontSize--small {
     font-size: 16px;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 .nav__fontSize--small:hover {
     cursor: pointer;
-    transform: scale(1.2);
     border-radius: 20%;
+    transform: scale(1.2);
 }
 
 .nav__fontSize--medium {
     font-size: 19px;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 .nav__fontSize--medium:hover {
     cursor: pointer;
-    transform: scale(1.2);
     border-radius: 20%;
+    transform: scale(1.2);
 }
 
 .nav__fontSize--big {
     font-size: 22px;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 .nav__fontSize--big:hover {
     cursor: pointer;
-    transform: scale(1.2);
     border-radius: 20%;
+    transform: scale(1.2);
 }
 
 .nav_fontSize--selected {

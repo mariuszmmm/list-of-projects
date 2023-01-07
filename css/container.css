@@ -10,7 +10,7 @@
     min-width: 290px;
     box-shadow: 5px 5px;
     text-shadow: 2px 2px 4px gray;
-    transition: 0.2s;
+    transition-duration: 0.2s;
 }
 
 .container--bright {
