@@ -1,22 +1,6 @@
-# **List-of-projects**
+# **web-development**
 
-#
- Check it out:     -->    https://mariuszmmm.github.io/list-of-projects/     <--
-#
-
-
-## Technologies Used
+demo   -->    https://mariuszmmm.github.io/list-of-projects/     <--
   
-- Javascript ES6+
+ in construction
 
-- HTML 5
-
-- CSS Grid
-
-- CSS Flex
-
-- Media queries
-
-- BEM convention
-
-- Normalize.css
