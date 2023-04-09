@@ -19,6 +19,8 @@
     const enLink4 = document.querySelector(".js-enLink4");
     const plLink5 = document.querySelector(".js-plLink5");
     const enLink5 = document.querySelector(".js-enLink5");
+    const plLink6 = document.querySelector(".js-plLink6");
+    const enLink6 = document.querySelector(".js-enLink6");
 
     plElement.addEventListener("click", () => {
 
@@ -51,6 +53,9 @@
         
         enLink5.classList.remove("spanLang--selected")
         plLink5.classList.add("spanLang--selected")
+        
+        enLink6.classList.remove("spanLang--selected")
+        plLink6.classList.add("spanLang--selected")
     });
 
 
@@ -85,6 +90,9 @@
         
         plLink5.classList.remove("spanLang--selected")
         enLink5.classList.add("spanLang--selected")
+        
+        plLink6.classList.remove("spanLang--selected")
+        enLink6.classList.add("spanLang--selected")
     });
 
     const brightElement = document.querySelector(".js-bright");
